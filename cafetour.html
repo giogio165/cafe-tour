@@ -11,10 +11,14 @@
 
       .month{
         color:blue;
+        padding-top: 20px;
+        padding-bottom: 20px;
       }
       .rating{
         color:blue;
         text-align: right;
+        padding-top: 20px;
+        padding-bottom: 20px;
       }
       #grid{
         border: 5px solid ivory;
@@ -22,6 +26,20 @@
         grid-template-columns: 600px 1fr;
       }
       body {background-color: ivory;}
+
+      .img_container{
+	      display: flex;
+        flex: 1 1 20%;
+        flex-diretion: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 20px;
+        gap: 30px;
+      }
+      .img_item{
+	       width:350px;
+         height:350px;
+      }
     </style>
   </head>
   <body>
@@ -38,5 +56,14 @@
       <strong>RATING / RECENT</strong>
     </div>
   </div>
+
+  <div class="img_container">
+    <img src="daegu_cafe.png" class="img_item">
+    <img src="hongdae_cafe.png" class="img_item">
+    <img src="hannam_cafe.JPG" class="img_item">
+    <img src="poak_cafe.jpg" class="img_item">
+    <img src="mangwon_cafe.jpg" class="img_item">
+  </div>
+
   </body>
 </html>
