@@ -1,0 +1,39 @@
+h1{
+  text-align: center;
+  color: blue;
+}
+
+  .month{
+    color:blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .rating{
+    color:blue;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #grid{
+    border: 5px solid ivory;
+    display: grid;
+    grid-template-columns: 600px 1fr;
+  }
+  body {background-color: ivory;}
+
+  .img-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    justify-content: space-evenly;
+    grid-gap: 20px;
+  }
+
+  .img-item {
+    text-align: center;
+  }
+
+  .img-item > img {
+    width:350px;
+    height:350px;
+    padding-bottom: 14px;
+  }

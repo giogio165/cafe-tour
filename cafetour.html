@@ -1,69 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
+
     <meta charset="utf-8">
+    <link rel="stylesheet" href="cafe_tourstyle.css">
     <title></title>
-    <style>
-      h1{
-      text-align: center;
-      color: blue;
-    }
 
-      .month{
-        color:blue;
-        padding-top: 20px;
-        padding-bottom: 20px;
-      }
-      .rating{
-        color:blue;
-        text-align: right;
-        padding-top: 20px;
-        padding-bottom: 20px;
-      }
-      #grid{
-        border: 5px solid ivory;
-        display: grid;
-        grid-template-columns: 600px 1fr;
-      }
-      body {background-color: ivory;}
-
-      .img_container{
-	      display: flex;
-        flex: 1 1 20%;
-        flex-diretion: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        padding: 20px;
-        gap: 30px;
-      }
-      .img_item{
-	       width:350px;
-         height:350px;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>
-      CAFE TOUR<br>
-      PR()JECTS
-    </h1>
-    <hr>
+</head>
+<body>
+  <h1>
+    CAFE TOUR<br>
+    PR()JECTS
+  </h1>
+  <hr>
   <div id="grid">
     <div class="month">
-      <strong>MAY 2022</strong>
+    <strong>MAY 2022</strong>
     </div>
     <div class='rating'>
-      <strong>RATING / RECENT</strong>
+    <strong>RATING / RECENT</strong>
+  </div>
+  </div>
+
+  <div class="img-container">
+    <div class="img-item">
+    <img src="daegu_cafe.png">
+    <span> Daegu Cafe </span>
+    </div>
+    <div class="img-item">
+      <img src="hongdae_cafe.png">
+        <span> Hongdae Cafe </span>
+      </div>
+    <div class="img-item">
+      <img src="hannam_cafe.JPG">
+      <span> Hanam Cafe </span>
+    </div>
+    <div class="img-item">
+      <img src="poak_cafe.jpg">
+      <span> Poak Cafe </span>
+    </div>
+    <div class="img-item">
+      <img src="mangwon_cafe.jpg">
+      <span> Mangwon Cafe </span>
     </div>
   </div>
 
-  <div class="img_container">
-    <img src="daegu_cafe.png" class="img_item">
-    <img src="hongdae_cafe.png" class="img_item">
-    <img src="hannam_cafe.JPG" class="img_item">
-    <img src="poak_cafe.jpg" class="img_item">
-    <img src="mangwon_cafe.jpg" class="img_item">
-  </div>
-
-  </body>
+</body>
 </html>
