@@ -1,15 +1,19 @@
+  * {
+    font-family: 'Jua', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    }
 h1{
   text-align: center;
-  color: blue;
+  color: lightblue;
 }
 
   .month{
-    color:blue;
+    color: lightblue;
     padding-top: 20px;
     padding-bottom: 20px;
   }
   .rating{
-    color:blue;
+    color: lightblue;
     text-align: right;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -19,6 +23,12 @@ h1{
     display: grid;
     grid-template-columns: 600px 1fr;
   }
+  hr {
+    height: 2px;
+    background-color: lightblue;
+    border: none;
+  }
+
   body {background-color: ivory;}
 
   .img-container{
@@ -36,4 +46,13 @@ h1{
     width:350px;
     height:350px;
     padding-bottom: 14px;
+  }
+
+  .img-item > a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .img-item > img {
+    border-radius: 24px;
   }
